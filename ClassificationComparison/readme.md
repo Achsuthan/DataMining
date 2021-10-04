@@ -20,9 +20,11 @@ No such data found with missing or nan
 1. workclass
 
 ![N|Solid](./Screenshots/3.WorkClass.png)
+
 2. occupation
 
 ![N|Solid](./Screenshots/4.Occupation.png)
+
 3. native_country
 
 ![N|Solid](./Screenshots/4.Occupation.png)
