@@ -85,6 +85,9 @@ Based on the above steps, `Entropy` and depth of 9 are chosen as the best parame
 
 Based on the above steps, 19 neighbours, `manhattan` distance metrics and `uniform` weight are chosen as the best parameters and the algorithm gives an accuracy of 83.81%.
 
+
+
+
 Other than calculating the accuracy of these algorithms some other steps done to verify which algorithm is good,
 1. Time measured for training and testing.
 2. The training data set is split into 1%, 10%, 100% and used to train and then
@@ -96,3 +99,8 @@ Based on the results that we can come to the consultation, the Decision tree is 
 1. For each split of the training data set, the Decision tree algorithm takes less time to train and predict the result.
 2. Accuracy: KNN is giving a good result in the lower training data set (1%). But the decision tree is producing the best accuracy for the 10% and 100% of training dataset.
 3. F-Score: KNN is giving a good result in the lower training data set (1%). But the decision tree is producing the best F1 score in 10% and 100%, same as accuracy.
+
+![N|Solid](./Screenshots/8.PerformanceTable.png)
+
+
+![N|Solid](./Screenshots/10.PerformanceFullChart.png)
