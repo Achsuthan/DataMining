@@ -72,13 +72,13 @@ After Visualizing the data set, some pre-processing were made to the data set,
 This data set is used to compare the `Decision Tree` and `KNN` classification algorithm. To create the model, below steps are followed for each algorithm.
 
 
-#Decision Tree
+# Decision Tree
 1. To measure the quality of a split, `Entropy` and `Gini` were used.
 2. The maximum depth is in the range of 1 - 32.
 
 Based on the above steps, `Entropy` and depth of 9 are chosen as the best parameters and the algorithm gives an accuracy of 85.43%.
 
-#KNN
+# KNN
 1. To calculate the distance metrics of the tree, `euclidean`, `manhattan`, and `minkowski` are used.
 2. The number of neighbours used in the range of 1 – 21
 3. The weight function used in the predictions are `uniform` and `distance`
