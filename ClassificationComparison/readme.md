@@ -63,6 +63,10 @@ when their age gets higher.
 
 ![N|Solid](./Screenshots/8.AgeWithIncome.png)
 
+7. Corelation diagram 
+
+![N|Solid](./Screenshots/11.CoRelationDiagram.png)
+
 After Visualizing the data set, some pre-processing were made to the data set,
 1. `Standardization` is applied to handle the outliers.
 2. All the categorical data is encoded using `LabelEncoder`.
