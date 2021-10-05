@@ -90,8 +90,7 @@ Based on the above steps, 19 neighbours, `manhattan` distance metrics and `unifo
 
 Other than calculating the accuracy of these algorithms some other steps done to verify which algorithm is good,
 1. Time measured for training and testing.
-2. The training data set is split into 1%, 10%, 100% and used to train and then
-predict the 30% percentage of an actual data set these splits are applied.
+2. The training data set is split into 1%, 10%, 100% and used to train and then predict the 30% percentage of an actual data set is applied to these splits
 3. F score calculated for each algorithm.
 
 
