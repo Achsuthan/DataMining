@@ -49,13 +49,13 @@ Some other oberservation were also found,
 4. From the age distribution, we can see the youngest user is 17years the oldest is
 90years.
 
-![N|Solid](./Screenshots/3.WorkClass.png)
+![N|Solid](./Screenshots/7.AgeDistribution.png)
 
 
 5. Average 45 years people are getting “>50K” and 37 years people are getting “<=
 50K”
 
-![N|Solid](./Screenshots/7.AgeDistribution.png)
+![N|Solid](./Screenshots/9.AverageAgewithIncome.png)
 
 
 6. There is a gradual decrease in the number of people earning “<=50K” respectively
