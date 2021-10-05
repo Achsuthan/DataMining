@@ -28,3 +28,5 @@ No such data found with missing or nan
 3. native_country
 
 ![N|Solid](./Screenshots/4.Occupation.png)
+
+The replacing approach applied to handle the "?" values.
