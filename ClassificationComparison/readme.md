@@ -1,4 +1,4 @@
-# Classification Algorithm Comparison
+## Classification Algorithm Comparison
 
 Two classification algorithms chosen
 1. Decision Tree 
@@ -70,3 +70,29 @@ After Visualizing the data set, some pre-processing were made to the data set,
 
 
 This data set is used to compare the `Decision Tree` and `KNN` classification algorithm. To create the model, below steps are followed for each algorithm.
+
+
+#Decision Tree
+1. To measure the quality of a split, `Entropy` and `Gini` were used.
+2. The maximum depth is in the range of 1 - 32.
+
+Based on the above steps, `Entropy` and depth of 9 are chosen as the best parameters and the algorithm gives an accuracy of 85.43%.
+
+#KNN
+1. To calculate the distance metrics of the tree, `euclidean`, `manhattan`, and `minkowski` are used.
+2. The number of neighbours used in the range of 1 – 21
+3. The weight function used in the predictions are `uniform` and `distance`
+
+Based on the above steps, 19 neighbours, `manhattan` distance metrics and `uniform` weight are chosen as the best parameters and the algorithm gives an accuracy of 83.81%.
+
+Other than calculating the accuracy of these algorithms some other steps done to verify which algorithm is good,
+1. Time measured for training and testing.
+2. The training data set is split into 1%, 10%, 100% and used to train and then
+predict the 30% percentage of an actual data set these splits are applied.
+3. F score calculated for each algorithm.
+
+
+Based on the results that we can come to the consultation, the Decision tree is good to compare to KNN because,
+1. For each split of the training data set, the Decision tree algorithm takes less time to train and predict the result.
+2. Accuracy: KNN is giving a good result in the lower training data set (1%). But the decision tree is producing the best accuracy for the 10% and 100% of training dataset.
+3. F-Score: KNN is giving a good result in the lower training data set (1%). But the decision tree is producing the best F1 score in 10% and 100%, same as accuracy.
