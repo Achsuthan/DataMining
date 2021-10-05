@@ -62,3 +62,11 @@ Some other oberservation were also found,
 when their age gets higher.
 
 ![N|Solid](./Screenshots/8.AgeWithIncome.png)
+
+After Visualizing the data set, some pre-processing were made to the data set,
+1. Standardization is applied to handle the outliers.
+2. All the categorical data is encoded using LabelEncoder.
+3. The data set split into 70% as training and 30% as testing datasets.
+
+
+This data set is used to compare the `Decision Tree` and `KNN` classification algorithm. To create the model, below steps are followed for each algorithm.
