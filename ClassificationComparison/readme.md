@@ -27,7 +27,7 @@ No such data found with missing or nan
 
 3. native_country
 
-![N|Solid](./Screenshots/4.Occupation.png)
+![N|Solid](./Screenshots/12.NativeCountry.png)
 
 The replacing approach called `Mode` applied to handle the "?" values.
 
